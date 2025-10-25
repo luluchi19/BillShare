@@ -20,4 +20,5 @@ public interface BalanceService {
     BalanceResponse getSimplifiedUserBalanceResponse(Long groupId, Long userId);
     void updateBalancesForPayment(PaymentEntity payment);
     void updateBalancesAfterPaymentDeletion(PaymentEntity payment);
+    void settleGroupDebts(Long groupId);
 }

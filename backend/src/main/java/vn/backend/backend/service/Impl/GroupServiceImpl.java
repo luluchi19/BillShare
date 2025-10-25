@@ -187,6 +187,7 @@ public class GroupServiceImpl implements GroupService {
                 .createdAt(group.getCreatedAt())
                 .isActive(group.getIsActive())
                 .avatar(group.getAvatarUrl())
+                .simplifyDebtOn(group.getSimplifyDebtOn())
                 .members(members)
                 .totalMembers(members.size())
                 .build();

@@ -21,5 +21,5 @@ public class GroupDetailResponse implements Serializable {
     private List<UserDetailResponse> members;
     private int totalMembers;
     private String avatar;
-
+    private Boolean simplifyDebtOn;
 }

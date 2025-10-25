@@ -58,5 +58,5 @@ public class GroupEntity {
 
     @Builder.Default
     @Column( name = "simplify_debt_on")
-    private Boolean SimplifyDebtOn=false;
+    private Boolean simplifyDebtOn=false;
 }
